@@ -4,9 +4,7 @@ var server = require('http').Server(app);
 var io = require('socket.io')(server);
 
 var messages = [{
-  id: 1,
-  text: "Mensaje de prueba",
-  author: "Usuario de prueba"
+  
 }];
 
 app.use(express.static('public'));
