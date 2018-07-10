@@ -1,6 +1,7 @@
 /*var host = window.location.hostname; 
-var socket = io.connect(host);*/
-var socket = io.connect('http://localhost:8080');
+var socket = io.connect(host);
+var socket = io.connect('http://localhost:8080');*/
+var socket = io.connect();
 
 socket.on('messages', function(data) {
   console.log(data);
